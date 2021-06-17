@@ -1,3 +1,5 @@
+
+function detalleCompra() {
 let nombreCompleto = prompt('Ingrese su nombre y apellido');
 let saborPreparacion = prompt('Ingrese su sabor preferido: Salado o Dulce');
 let metodoPago =  prompt('Ingrese el método de pago que va a utilizar');
@@ -20,4 +22,7 @@ if (metodoPago !== '') {
 
 
 alert('Comprador:' + ' ' + nombreCompleto + '. ' + 'El sabor elegido:' + ' ' + saborPreparacion + ' y el método de pago es:' + ' ' + metodoPago);
+}
 
+
+detalleCompra()
